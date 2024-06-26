@@ -1,4 +1,4 @@
-Thanks for downloading this theme!
+Personal Website. Template taken from:
 
 Theme Name: DevFolio
 Theme URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
