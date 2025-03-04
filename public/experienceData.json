@@ -1,0 +1,57 @@
+{
+    "timeline": [
+      {
+        "type": "work",
+        "role": "Software Engineer II",
+        "company": "Cisco Systems",
+        "logo": "/assets/cisco_logo.png",
+        "duration": "June 2021 - June 2024",
+        "achievements": [
+          "Led a team transitioning from Angular to React.",
+          "Improved chatbot performance, reducing query time by 70%.",
+          "Developed an open-source 'Skill Library' saving bot owners 80% of manual work."
+        ],
+        "skills": ["Python", "React", "Machine Learning"]
+      },
+      {
+        "type": "work",
+        "role": "Software Engineer I",
+        "company": "Cisco Systems",
+        "logo": "/assets/cisco_logo.png",
+        "duration": "Jan 2019 - June 2021",
+        "achievements": [
+          "Built an analytics dashboard for chatbot interactions.",
+          "Increased bot user base by 50% through UI improvements."
+        ],
+        "skills": ["Python", "Angular", "UI/UX"]
+      },
+      {
+        "type": "education",
+        "degree": "Master of Science in Information Systems",
+        "institution": "University of Washington, Seattle",
+        "logo": "/assets/uw_logo.png",
+        "duration": "June 2024 - June 2025",
+        "details": "Currently pursuing an MS in Information Systems at the Foster School of Business.",
+        "skills": ["Data Analytics", "Data Mining"]
+      },
+      {
+        "type": "education",
+        "degree": "M.Tech in Data Science",
+        "institution": "IISc Bangalore",
+        "logo": "/assets/iisc_logo.png",
+        "duration": "Aug 2021 - July 2023",
+        "details": "Completed at IISc Bangalore with a GPA of 3.87/4.0.",
+        "skills": ["Machine Learning", "Deep Learning"]
+      },
+      {
+        "type": "education",
+        "degree": "B.Tech in Computer Science",
+        "institution": "PES University Bangalore",
+        "logo": "/assets/pes_logo.png",
+        "duration": "Aug 2015 - July 2019",
+        "details": "Completed at PES University Bangalore with a GPA of 9.16/10.",
+        "skills": ["Machine Learning", "Data Structures & Algorithms"]
+      }
+    ]
+  }
+  

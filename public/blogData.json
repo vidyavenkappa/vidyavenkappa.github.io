@@ -1,0 +1,32 @@
+{
+    "blogs": [
+      {
+        "id": "security-incidents",
+        "title": "Predicting Security Incidents in Microsoft Systems",
+        "category": "security",
+        "date": "October 2024",
+        "image": "/assets/microsoft_incident_detection.png",
+        "excerpt": "In today's cybersecurity landscape, the ability to predict and prevent security incidents before they occur is invaluable. I'm excited to share my recent project focused on developing a machine learning model to predict security incidents in Microsoft systems using the Guide dataset.",
+        "tags": ["Machine Learning", "Security", "Microsoft"]
+      },
+      {
+        "id": "digital-defense",
+        "title": "Microsoft Digital Defense Report Analysis",
+        "category": "security",
+        "date": "December 2024",
+        "image": "/assets/microsoft_digital_defence.png",
+        "excerpt": "In today's rapidly evolving cybersecurity landscape, staying ahead of emerging threats requires not just access to good intelligence, but the ability to extract actionable insights from vast amounts of data. Learn how I developed a RAG pipeline with Phi-3.5.",
+        "tags": ["RAG", "LLM", "Security", "Microsoft"]
+      },
+      {
+        "id": "balancing-act",
+        "title": "Balancing Act: Navigating Education & Career",
+        "category": "career",
+        "date": "February 2025",
+        "image": "/assets/work_life.png",
+        "excerpt": "Balancing education at top institutions while maintaining a professional career presents unique challenges and opportunities. Learn about my journey through prestigious programs in India and the US.",
+        "tags": ["Career", "Education", "Personal Growth"]
+      }
+    ]
+  }
+  

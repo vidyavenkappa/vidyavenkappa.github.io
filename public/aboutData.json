@@ -1,0 +1,31 @@
+{
+    "name": "Vidya Venkappa",
+    "title": "Software Engineer & Data Scientist",
+    "bio": "Building innovative solutions with 5+ years of experience in data integration, scalable pipelines, and actionable insights.",
+    "description": [
+      "I am a dedicated Software Engineer and Data Scientist with extensive experience in developing enterprise-grade solutions.",
+      "Currently pursuing a Master of Science in Information Systems at the University of Washington, I'm expanding my knowledge while applying my skills in real-world scenarios.",
+      "My expertise spans backend development, machine learning, cloud services, and frontend frameworks. Passionate about creating efficient systems that transform complex data into valuable insights."
+    ],
+    "stats": [
+      { "icon": "fas fa-code", "count": "5+", "label": "Years Experience" },
+      { "icon": "fas fa-project-diagram", "count": "25+", "label": "Projects" },
+      { "icon": "fas fa-award", "count": "25+", "label": "Recognitions" },
+      { "icon": "fas fa-users", "count": "1000+", "label": "Users Impacted" }
+    ],
+    "testimonials": [
+      {
+        "author": "John Smith",
+        "position": "Engineering Manager, Cisco",
+        "image": "/assets/john_smith.jpg",
+        "quote": "Vidya is an exceptional engineer with a talent for developing elegant solutions to complex problems. Her work on our chatbot framework significantly improved user experience and adoption."
+      },
+      {
+        "author": "Sarah Johnson",
+        "position": "Data Scientist, Microsoft",
+        "image": "/assets/sarah_johnson.jpg",
+        "quote": "Working with Vidya on the RAG pipeline project was a great experience. Her technical expertise and problem-solving abilities made a significant impact on our team's success."
+      }
+    ]
+  }
+  

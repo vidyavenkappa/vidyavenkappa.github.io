@@ -1,0 +1,361 @@
+:root {
+  --primary: #5A3E85; /* Softer deep purple */
+  --secondary: #EAE2F8; /* Light lavender */
+  --accent: #A0467E; /* Soft magenta */
+  --text: #2D1B47; /* Deep purple for text */
+  --light-bg: #FFFFFF; /* White background */
+  --dark-bg: #4A1F47; /* Rich dark plum */
+  --gpa-highlight: #A0467E; /* Accent for highlighting */
+  --timeline-line: #5A3E85; /* Dark purple timeline */
+}
+
+/* General Styling */
+.experience-section {
+  padding: 50px 0;
+  background: linear-gradient(135deg, #432F60, #6B0F46); 
+  color: white;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+.section-title {
+  text-align: center;
+  margin-bottom: 30px;
+  color: var(--light-bg);
+}
+
+/* Tabs */
+.tabs-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tabs {
+  display: flex;
+  gap: 20px;
+  background: white;
+  color: var(--primary);
+  padding: 8px;
+  border-radius: 50px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  justify-content: center;
+  width:auto;
+  transition: 0.3s ease;
+}
+
+.tab {
+  padding: 12px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s ease;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tab i {
+  font-size: 18px;
+}
+
+.tab.active {
+  background: var(--accent);
+  color: white;
+}
+
+
+/* Timeline */
+.timeline {
+  position: relative;
+  margin: 30px auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Timeline Vertical Line */
+.timeline::before {
+  content: '';
+  position: absolute;
+  width: 4px;
+  background: var(--timeline-line);
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Timeline Items */
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  position: relative;
+  width: 100%;
+  max-width: 850px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Alternate Left & Right */
+.timeline-item.left {
+  flex-direction: row-reverse;
+  text-align: left;
+}
+
+.timeline-item.right {
+  flex-direction: row;
+  text-align: left;
+}
+
+/* Timeline Dot */
+.timeline-dot {
+  position: absolute;
+  top: 30px;
+  width: 15px;
+  height: 15px;
+  background: var(--accent);
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.timeline-item.left .timeline-dot {
+  left: calc(50% - 8px);
+}
+
+.timeline-item.right .timeline-dot {
+  right: calc(50% - 8px);
+}
+
+/* Timeline Content Box */
+/* Timeline Content Box */
+.timeline-content {
+  background: var(--light-bg);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-left: 6px solid var(--primary);
+  width: 50%;
+  position: relative;
+  color: var(--text);
+}
+
+/* Adjusted Margins */
+.timeline-item.left .timeline-content {
+  margin-right: auto;
+  margin-left: -40px;  /* Adds space between content and timeline */
+}
+
+.timeline-item.right .timeline-content {
+  margin-right: -40px; /* Adds space between content and timeline */
+  margin-left: auto;
+}
+
+/* Adjusted Timeline Dates */
+.timeline-item.left .timeline-date {
+  left: calc(50% + 80px); /* Shifted to create more space */
+}
+
+.timeline-item.right .timeline-date {
+  right: calc(50% + 80px); /* Shifted to create more space */
+}
+
+/* Date Styling */
+.timeline-date {
+  font-weight: bold;
+  color: var(--light-bg);
+  font-size: 16px;
+  position: absolute;
+  top: 25px;
+  width: 30%;
+  text-align: center;
+}
+
+/* Place Date on the Opposite Side of the Card */
+.timeline-item.left .timeline-date {
+  left: calc(50% + 5px); /* Adjusted for better alignment */
+}
+
+.timeline-item.right .timeline-date {
+  right: calc(50% + 5px);
+}
+
+/* Company Logo */
+.timeline-company {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.company-logo {
+  width: 45px;
+  height: auto;
+  margin-right: 12px;
+}
+
+/* Achievements */
+.timeline-achievements {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+}
+
+.timeline-achievements li {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 15px;
+  color: var(--text);
+}
+
+.timeline-achievements i {
+  color: var(--accent);
+}
+
+/* Skill Tags */
+.timeline-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.timeline-skills span {
+  background: var(--accent);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 15px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* GPA Highlight */
+.gpa-highlight {
+  background: var(--gpa-highlight);
+  color: white;
+  padding: 5px 14px;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+  .timeline-item {
+    flex-direction: column !important;
+    align-items: center;
+    text-align: center;
+  }
+
+  .timeline::before {
+    left: 20px;
+  }
+
+  .timeline-dot {
+    left: 14px !important;
+  }
+
+  .timeline-date {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    left: 0 !important;
+    right: 0 !important;
+  }
+
+  .timeline-content {
+    width: 90%;
+    margin: auto;
+  }
+}
+
+/* Mobile Responsive Adjustments */
+@media screen and (max-width: 768px) {
+  .experience-section {
+    padding: 40px 15px; /* Reduced padding */
+  }
+
+  .tabs {
+    flex-wrap: wrap; /* Prevents overflow */
+    padding: 10px;
+    gap: 10px;
+  }
+
+  .tab {
+    font-size: 14px; /* Smaller font */
+    padding: 10px 15px; /* Adjusted padding */
+  }
+
+  .timeline {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  .timeline::before {
+    left: 20px; /* Align timeline line */
+  }
+
+  .timeline-item {
+    flex-direction: column !important; /* Ensure stacking */
+    align-items: center;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .timeline-content {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    padding: 20px;
+    border-left: none;
+    border-top: 6px solid var(--primary); /* Changes to a top border for mobile */
+  }
+
+  .timeline-dot {
+    left: 15px !important; /* Adjust position */
+    top: -10px; /* Moves the dot above the timeline content */
+  }
+
+  .timeline-date {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    left: 0 !important;
+    right: 0 !important;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+
+  .timeline-company {
+    justify-content: center;
+  }
+
+  .company-logo {
+    width: 40px; /* Smaller logos */
+  }
+
+  .timeline-achievements li {
+    font-size: 14px;
+  }
+
+  .timeline-skills {
+    justify-content: center;
+  }
+
+  .gpa-highlight {
+    font-size: 14px;
+  }
+}
