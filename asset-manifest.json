@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/vidyavenkappa/vidyavenkappa.github.io.git/static/css/main.fc302405.css",
-    "main.js": "/vidyavenkappa/vidyavenkappa.github.io.git/static/js/main.f62af38b.js",
-    "static/js/453.253ccfac.chunk.js": "/vidyavenkappa/vidyavenkappa.github.io.git/static/js/453.253ccfac.chunk.js",
-    "index.html": "/vidyavenkappa/vidyavenkappa.github.io.git/index.html",
-    "main.fc302405.css.map": "/vidyavenkappa/vidyavenkappa.github.io.git/static/css/main.fc302405.css.map",
-    "main.f62af38b.js.map": "/vidyavenkappa/vidyavenkappa.github.io.git/static/js/main.f62af38b.js.map",
-    "453.253ccfac.chunk.js.map": "/vidyavenkappa/vidyavenkappa.github.io.git/static/js/453.253ccfac.chunk.js.map"
+    "main.css": "/vidyavenkappa/vidyavenkappa.github.io/static/css/main.fc302405.css",
+    "main.js": "/vidyavenkappa/vidyavenkappa.github.io/static/js/main.c6fd3881.js",
+    "static/js/453.253ccfac.chunk.js": "/vidyavenkappa/vidyavenkappa.github.io/static/js/453.253ccfac.chunk.js",
+    "index.html": "/vidyavenkappa/vidyavenkappa.github.io/index.html",
+    "main.fc302405.css.map": "/vidyavenkappa/vidyavenkappa.github.io/static/css/main.fc302405.css.map",
+    "main.c6fd3881.js.map": "/vidyavenkappa/vidyavenkappa.github.io/static/js/main.c6fd3881.js.map",
+    "453.253ccfac.chunk.js.map": "/vidyavenkappa/vidyavenkappa.github.io/static/js/453.253ccfac.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fc302405.css",
-    "static/js/main.f62af38b.js"
+    "static/js/main.c6fd3881.js"
   ]
 }
