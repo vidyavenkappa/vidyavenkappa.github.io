@@ -1,0 +1,30 @@
+{
+  "technicalSkills": [
+    { "name": "Python", "percentage": 95, "icon": "fab fa-python" },
+    { "name": "Machine Learning", "percentage": 90, "icon": "fas fa-brain" },
+    { "name": "SQL & MongoDB", "percentage": 90, "icon": "fas fa-database" },
+    { "name": "TensorFlow & PyTorch", "percentage": 85, "icon": "fas fa-code" },
+    { "name": "Data Pipelines", "percentage": 90, "icon": "fas fa-project-diagram" },
+    { "name": "React & Angular", "percentage": 80, "icon": "fab fa-react" },
+    { "name": "LLM & NLP", "percentage": 85, "icon": "fas fa-robot" },
+    { "name": "Cloud Services", "percentage": 85, "icon": "fas fa-cloud" }
+  ],
+  "softSkills": [
+    { "name": "Problem Solving", "percentage": 90, "icon": "fas fa-lightbulb" },
+    { "name": "Communication", "percentage": 85, "icon": "fas fa-comments" },
+    { "name": "Team Leadership", "percentage": 85, "icon": "fas fa-users" },
+    { "name": "Project Management", "percentage": 90, "icon": "fas fa-tasks" },
+    { "name": "Adaptability", "percentage": 95, "icon": "fas fa-sync-alt" },
+    { "name": "Time Management", "percentage": 85, "icon": "fas fa-clock" }
+  ],
+  "tools": [
+    { "name": "Git & GitHub", "percentage": 95, "icon": "fab fa-github" },
+    { "name": "Jira & Agile", "percentage": 90, "icon": "fas fa-clipboard-list" },
+    { "name": "VS Code", "percentage": 95, "icon": "fas fa-code" },
+    { "name": "Jupyter Notebook", "percentage": 95, "icon": "fas fa-book-open" },
+    { "name": "Docker", "percentage": 85, "icon": "fab fa-docker" },
+    { "name": "Power BI", "percentage": 85, "icon": "fas fa-chart-bar" },
+    { "name": "Miro & Figma", "percentage": 80, "icon": "fas fa-pencil-ruler" }
+  ]
+}
+  

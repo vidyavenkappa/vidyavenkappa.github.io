@@ -1,0 +1,27 @@
+{
+    "projects": [
+      {
+        "id": "review-guide",
+        "title": "Review Guide: AI Research Paper Evaluator",
+        "image": "/assets/paper_review.png",
+        "type": "research",
+        "tags": ["LLM", "NLP", "Research", "Python"],
+        "date": "December 2024",
+        "description": "An AI-powered application that leverages Large Language Models (LLMs) to analyze top machine learning conference papers and generate structured evaluations.",
+        "github": "https://github.com/vidyavenkappa/review-guide",
+        "demo": "#"
+      },
+      {
+        "id": "security-incident",
+        "title": "Microsoft Security Incident Prediction",
+        "image": "/assets/microsoft_incident_detection.png",
+        "type": "other",
+        "tags": ["Machine Learning", "Security", "Python", "CatBoost"],
+        "date": "October 2024",
+        "description": "Developed an ML model using gradient boosting to analyze security incidents and predict vulnerabilities in Microsoft systems.",
+        "github": "https://github.com/vidyavenkappa/security-incident-prediction",
+        "demo": "#"
+      }
+    ]
+  }
+  
