@@ -3,9 +3,9 @@
 /.pnp/
 /.pnp.js
 
-# Build outputs (GitHub Pages needs `/build` to be deployed)
-!/build/ # Allow build folder for deployment
-/build/*
+# Ignore build (except for deployment)
+/build/
+!/build/
 
 # Testing
 /coverage/
