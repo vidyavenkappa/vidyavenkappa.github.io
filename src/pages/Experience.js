@@ -65,7 +65,7 @@ const Experience = () => {
               .filter(item => item.type === activeTab)
               .map((item, index) => (
                 <motion.div 
-                  className={`timeline-item right`} 
+                  className={`timeline-item  ${index % 2 === 0 ? 'left' : 'right'}`} 
                   key={index}
                   initial={{ opacity: 0, y: 50 }}
                   animate={{ opacity: 1, y: 0 }}

@@ -272,7 +272,7 @@ const Contact = () => {
             <div className="contact-item">
               <i className="fas fa-envelope"></i>
               <p>Email</p>
-              <a href="mailto:vivenkap@uw.edu">vivenkap@uw.edu</a>
+              <a href="mailto:vivenkap@uw.edu">venkappvidya@gmail.com</a>
             </div>
             <div className="contact-item">
               <i className="fas fa-map-marker-alt"></i>

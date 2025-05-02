@@ -7,11 +7,11 @@
         "logo": "/assets/cisco_logo.png",
         "duration": "June 2021 - June 2024",
         "achievements": [
-          "Led a team transitioning from Angular to React.",
-          "Improved chatbot performance, reducing query time by 70%.",
-          "Developed an open-source 'Skill Library' saving bot owners 80% of manual work."
+          "Developed a machine learning pipeline that reduced chatbot query response time by 70% by building a retrieval augmented generation (RAG) pipeline. Managed structured and unstructured data for improved LLM (Large Language Model) responses in the chatbot.",
+          "Ensured responses are polite regardless of the user’s query tone, with a 90% positive sentiment score in our custom LLM(Large Language Model) by developing politeness features.",
+          "Expanded the customer base from 1000 to 1100+ (around 100 bots increase) by leading the team in restructuring BotLite (chatbot framework application) from monolithic into a micro-service architecture."
         ],
-        "skills": ["Python", "React", "Machine Learning"]
+        "skills": ["Python", "Machine Learning", "Deep Learning", "LLM", "System Design", "React", "RAG"]
       },
       {
         "type": "work",
@@ -20,10 +20,18 @@
         "logo": "/assets/cisco_logo.png",
         "duration": "Jan 2019 - June 2021",
         "achievements": [
-          "Built an analytics dashboard for chatbot interactions.",
-          "Increased bot user base by 50% through UI improvements."
+          "Enhanced bot performance evaluation in BotLite (chatbot framework) by developing an analytics dashboard using Angular’s Highcharts and Python libraries, providing visual analytics on user interactions, retention, health status, traffic, and usage.",
+          "Led UI improvements in BotLite (chatbot framework), eliminating redundant features and enhancing user-friendliness, resulting in a spike in bot creations from 400 to 950+ and increase in intent and rule formulations to over 25K+."
         ],
-        "skills": ["Python", "Angular", "UI/UX"]
+        "skills": [
+          "Python",
+          "Data Analytics",
+          "Highcharts",
+          "Angular",
+          "UI/UX", 
+          "React",
+          "React Flow"
+        ]
       },
       {
         "type": "education",
@@ -31,17 +39,17 @@
         "institution": "University of Washington, Seattle",
         "logo": "/assets/uw_logo.png",
         "duration": "June 2024 - June 2025",
-        "details": "Currently pursuing an MS in Information Systems at the Foster School of Business.",
-        "skills": ["Data Analytics", "Data Mining"]
+        "details": "Currently pursuing an MS in Information Systems.",
+        "skills": ["Data Analytics", "Data Mining", "Machine Learning", "GenAI", "Database", "AWS"]
       },
       {
         "type": "education",
-        "degree": "M.Tech in Data Science",
+        "degree": "M.Tech in Data Science and Business Analytics",
         "institution": "IISc Bangalore",
         "logo": "/assets/iisc_logo.png",
         "duration": "Aug 2021 - July 2023",
         "details": "Completed at IISc Bangalore with a GPA of 3.87/4.0.",
-        "skills": ["Machine Learning", "Deep Learning"]
+        "skills": ["Data Science", "Machine Learning", "Deep Learning", "Data Analytics", "Data Mining", "Big Data"]
       },
       {
         "type": "education",
@@ -50,7 +58,7 @@
         "logo": "/assets/pes_logo.png",
         "duration": "Aug 2015 - July 2019",
         "details": "Completed at PES University Bangalore with a GPA of 9.16/10.",
-        "skills": ["Machine Learning", "Data Structures & Algorithms"]
+        "skills": ["Machine Learning", "Data Structures & Algorithms", "Data Science", "Data Analytics"]
       }
     ]
   }

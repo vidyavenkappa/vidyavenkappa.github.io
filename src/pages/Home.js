@@ -202,7 +202,7 @@ const Home = () => {
           <Link to="/blog" className="btn">
             Read My Blog
           </Link>
-          <Link to={`${process.env.PUBLIC_URL}/resume.pdf`}  className="btn">
+          <Link to={`${process.env.PUBLIC_URL}/resume.pdf`}  className="btn" target="_blank" rel="noopener noreferrer">
             View My Resume
           </Link>
         </div>
