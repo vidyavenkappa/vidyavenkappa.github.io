@@ -1,32 +1,82 @@
 {
-    "blogs": [
-      {
-        "id": "security-incidents",
-        "title": "Predicting Security Incidents in Microsoft Systems",
-        "category": "security",
-        "date": "October 2024",
-        "image": "/assets/microsoft_incident_detection.png",
-        "excerpt": "In today's cybersecurity landscape, the ability to predict and prevent security incidents before they occur is invaluable. I'm excited to share my recent project focused on developing a machine learning model to predict security incidents in Microsoft systems using the Guide dataset.",
-        "tags": ["Machine Learning", "Security", "Microsoft"]
-      },
-      {
-        "id": "digital-defense",
-        "title": "Microsoft Digital Defense Report Analysis",
-        "category": "security",
-        "date": "December 2024",
-        "image": "/assets/microsoft_digital_defence.png",
-        "excerpt": "In today's rapidly evolving cybersecurity landscape, staying ahead of emerging threats requires not just access to good intelligence, but the ability to extract actionable insights from vast amounts of data. Learn how I developed a RAG pipeline with Phi-3.5.",
-        "tags": ["RAG", "LLM", "Security", "Microsoft"]
-      },
-      {
-        "id": "balancing-act",
-        "title": "Balancing Act: Navigating Education & Career",
-        "category": "career",
-        "date": "February 2025",
-        "image": "/assets/work_life.png",
-        "excerpt": "Balancing education at top institutions while maintaining a professional career presents unique challenges and opportunities. Learn about my journey through prestigious programs in India and the US.",
-        "tags": ["Career", "Education", "Personal Growth"]
-      }
-    ]
-  }
-  
+  "blogs": [
+    {
+      "id": "personal-website",
+      "title": "My Journey Creating a Personal Webpage with AI Tools",
+      "date": "March 2025",
+      "author": "Vidya Venkappa",
+      "category": "tech",
+      "image": "/assets/personal-website.png",
+      "excerpt": "Discover how I leveraged cutting-edge AI tools to design and develop my personal website. This journey explores the intersection of traditional web development and AI assistance, highlighting both the capabilities and limitations of today's generative design tools.",
+      "tags": [
+        "Personal",
+        "Tech",
+        "AI"
+      ],
+      "contentFile": "/blog/personal-website.docx"
+    },
+    {
+      "id": "digital-defense",
+      "title": "Microsoft Digital Defense Report Analysis",
+      "date": "February 2025",
+      "author": "Vidya Venkappa",
+      "category": "security",
+      "image": "/assets/microsoft_digital.png",
+      "excerpt":"An in-depth analysis of Microsoft's Digital Defense Reports using a custom Retrieval-Augmented Generation pipeline. Learn how I combined ChromaDB, LangChain, and Microsoft's Phi-3.5 model to extract actionable security insights from years of threat intelligence data.",
+      "tags": [
+        "RAG",
+        "LLM",
+        "Security",
+        "Microsoft",
+        "Data-science"
+      ],
+      "contentFile": "/blog/digital-defense.docx"
+    },
+    {
+      "id": "comapre-ai",
+      "title": "Navigating the AI Research Tool Landscape: A Critical Reflection",
+      "date": "January 2025",
+      "author": "Vidya Venkappa",
+      "category": "AI Tool",
+      "image": "/assets/compare-ai.png",
+       "excerpt": "A comprehensive analysis of today's leading AI research assistants based on my hands-on testing. I evaluate how these tools handle complex research queries, compare their accuracy, source attribution, and reasoning capabilities, and provide practical guidance for choosing the right AI research companion for different academic and professional needs.",
+       "tags": [
+        "Data-science",
+        "Tech"
+      ],
+      "contentFile": "/blog/compare-ai-tools.docx"
+     
+    },
+    {
+      "id": "security-incidents",
+      "title": "Predicting Security Incidents in Microsoft Systems",
+      "date": "December 2024",
+      "author": "Vidya Venkappa",
+      "category": "security",
+      "image": "/assets/microsoft_incident_detection.png",
+      "excerpt": "How I built an 80% accurate machine learning model to predict security incidents in Microsoft systems using the GUIDE dataset. This project demonstrates the power of CatBoost for classification and reveals critical patterns in cybersecurity threats across Windows and Linux environments.",
+      "tags": [
+        "Machine Learning",
+        "Security",
+        "Microsoft",
+        "Data-science"
+      ],
+      "contentFile": "/blog/security-incidents.docx"
+    },
+    {
+      "id": "balancing-act",
+      "title": "Balancing Act: Navigating Education & Career",
+      "date": "October 2024",
+      "author": "Vidya Venkappa",
+      "category": "career",
+      "image": "/assets/work_life.png",
+      "excerpt": "Navigating two worlds: completing a Master's at India's top university while working as a Software Engineer at Cisco, versus being a full-time student at UW Foster. My personal reflections on the challenges, benefits, and lessons learned from both educational paths.",
+      "tags": [
+        "Personal",
+        "Career",
+        "Data-science"
+      ],
+      "contentFile": "/blog/balancing_act.docx"
+    }
+  ]
+}
