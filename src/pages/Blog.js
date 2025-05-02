@@ -32,7 +32,7 @@ const Blog = () => {
         <div className="blog-filters">
           <div className="tabs-container">
             <div className="tabs">
-              {["all", "tech", "data-science", "security", "career"].map((category) => (
+              {["all", "tech", "security", "career","AI Tool"].map((category) => (
                 <div 
                   key={category} 
                   className={`tab ${filter === category ? 'active' : ''}`} 
