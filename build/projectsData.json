@@ -1,27 +1,49 @@
 {
-    "projects": [
-      {
-        "id": "review-guide",
-        "title": "Review Guide: AI Research Paper Evaluator",
-        "image": "/assets/paper_review.png",
-        "type": "research",
-        "tags": ["LLM", "NLP", "Research", "Python"],
-        "date": "December 2024",
-        "description": "An AI-powered application that leverages Large Language Models (LLMs) to analyze top machine learning conference papers and generate structured evaluations.",
-        "github": "https://github.com/vidyavenkappa/review-guide",
-        "demo": "#"
-      },
-      {
-        "id": "security-incident",
-        "title": "Microsoft Security Incident Prediction",
-        "image": "/assets/microsoft_incident_detection.png",
-        "type": "other",
-        "tags": ["Machine Learning", "Security", "Python", "CatBoost"],
-        "date": "October 2024",
-        "description": "Developed an ML model using gradient boosting to analyze security incidents and predict vulnerabilities in Microsoft systems.",
-        "github": "https://github.com/vidyavenkappa/security-incident-prediction",
-        "demo": "#"
-      }
-    ]
-  }
-  
+  "projects": [
+    {
+      "id": "cybersentinel",
+      "title": "CyberSentinel: Agentic Cybersecurity Chatbot",
+      "image": "/assets/cyber_sentinel.png",
+      "type": "security",
+      "tags": ["FastAPI", "LangGraph", "ChromaDB", "LLM", "Gemini", "Agentic Framework"],
+      "date": "December 2024 - In Progress",
+      "description": "Developed an agentic cybersecurity chatbot using FastAPI, LangGraph, and ChromaDB to handle complex security queries with structured reasoning and modular agent workflows.",
+      "github": "https://github.com/vidyavenkappa/https://github.com/vidyavenkappa/CyberSentinel",
+      "demo": "#"
+    },
+    {
+      "id": "crab-ai",
+      "title": "CRAB.AI: Critical Review and Analysis for Brilliant Papers",
+      "image": "/assets/crabai.png",
+      "type": "research",
+      "tags": ["LLM", "React", "FastAPI", "RBAC", "Gemini", "Perplexity", "DeepSeek"],
+      "date": "December 2024 - March 2025",
+      "description": "AI-driven academic paper review platform enabling structured feedback and LLM-assisted reviews, reducing review time from 4 months to 1 week.",
+      "github": "https://crabai.vercel.app/",
+      "demo": "#"
+    },
+    {
+      "id": "digital-defense-report",
+      "title": "Microsoft Digital Defense Report Analysis",
+      "image": "/assets/microsoft_digital.png",
+      "type": "security",
+      "tags": ["RAG", "ChromaDB", "LangChain", "phi-3.5", "Threat Intelligence"],
+      "date": "December 2024 - February 2025",
+      "description": "Built a RAG pipeline using ChromaDB and LangChain to analyze Microsoft Digital Defense Reports and extract actionable threat intelligence using phi-3.5.",
+      "github": "https://github.com/vidyavenkappa/Microsoft-Defense-Report-Analysis",
+      "demo": "#"
+    },
+    {
+      "id": "spotify-predictor",
+      "title": "Spotify Song Popularity Prediction and Recommendation",
+      "image": "/assets/spotify.png",
+      "type": "data-science",
+      "tags": ["Machine Learning", "Spotify", "K-Means", "Gradient Boosting"],
+      "date": "October 2024 - December 2024",
+      "description": "Developed ML pipeline to predict song popularity using boosting models and built a recommendation system using K-Means clustering.",
+      "github": "https://drive.google.com/file/d/1N03qZ3tybKtG1DtYnvnbQk5VTlJKBUD4/view?usp=drive_link",
+      "demo": "#"
+    }
+  ]
+}
+
