@@ -8,7 +8,7 @@ const About = () => {
       <div className="container">
         <div className="section-title">
           <h2>About Me</h2>
-          <p>Software Engineer & Data Scientist with a passion for innovation</p>
+          <p>Data Scientist & Software Engineer with a passion for innovation</p>
         </div>
         
         <div className="about-intro">
@@ -26,10 +26,10 @@ const About = () => {
           
           <div className="about-content">
             
-            <p>I am a dedicated Software Engineer and Data Scientist with extensive experience in developing enterprise-grade solutions. My expertise spans backend development, machine learning, cloud services, and frontend frameworks. I'm passionate about creating efficient systems that transform complex data into valuable insights.</p>
+            <p>I am a dedicated Data Scientist and Software Engineer with extensive experience in developing enterprise-grade solutions. My expertise spans backend development, machine learning, cloud services, and frontend frameworks. I'm passionate about creating efficient systems that transform complex data into valuable insights.</p>
       
            
-            <p>Currently pursuing a Master of Science in Information Systems at the University of Washington's Foster School of Business, I'm expanding my knowledge while applying my skills in real-world scenarios. My background includes a previous master's degree from the prestigious Indian Institute of Science (IISc) in Data Science and Business Analytics.</p>
+            <p>Currently pursuing a Master of Science in Information Systems at the University of Washington, I'm expanding my knowledge while applying my skills in real-world scenarios. My background includes a previous master's degree from the prestigious Indian Institute of Science (IISc) in Data Science and Business Analytics.</p>
          
           
             
